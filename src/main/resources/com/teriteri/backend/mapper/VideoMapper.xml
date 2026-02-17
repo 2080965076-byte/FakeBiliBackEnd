@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teriteri.backend.mapper.VideoMapper">
+
+<!--    <select id="getVideoByIds" resultType="com.teriteri.backend.pojo.vo.VideoVO">-->
+<!--        select id, title, description, video_url as videoUrl, cover_url as coverUrl,-->
+<!--        tags as tagsJson, barrages, views, likes, favorites,-->
+<!--        shares, coins, comments, time, user_id as userId, collection_id as collectionId,-->
+<!--        visibility,created_time as createdTime, updated_time as updatedTime,sort,last_id as lastId-->
+<!--        from video-->
+<!--        where id in-->
+<!--        <foreach collection="videoIds" item="id" open="(" separator="," close=")">-->
+<!--            #{id}-->
+<!--        </foreach>-->
+<!--    </select>-->
+
+</mapper>
